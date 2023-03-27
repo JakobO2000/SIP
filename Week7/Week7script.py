@@ -6,7 +6,7 @@ import skimage as sm
 import skimage.morphology as morph
 from skimage.io import imread, imsave
 from skimage.util import img_as_float, random_noise
-from skimage.transform import rotate, resize
+from skimage.transform import rotate, resize, hough_line, hough_circle
 from skimage.filters import gaussian as ski_gaussian
 from skimage.feature import canny, corner_harris, corner_peaks
 from pylab import ginput
